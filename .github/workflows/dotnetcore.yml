@@ -14,6 +14,6 @@ jobs:
       with:
         dotnet-version: 2.2.108
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build samples/csharp_dotnetcore/80.skills-simple-bot-to-bot/SimpleBotToBot.sln --configuration Release
     - name: Publish with dotnet
-      run: dotnet publish --configuration Release
+      run: dotnet publish samples/csharp_dotnetcore/80.skills-simple-bot-to-bot/SimpleBotToBot.sln --configuration Release
